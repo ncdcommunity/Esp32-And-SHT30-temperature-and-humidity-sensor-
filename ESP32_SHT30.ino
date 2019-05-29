@@ -1,10 +1,10 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 #include <Wire.h>
-#define WIFISSID "Dcube_web" // Put your WifiSSID here
-#define PASSWORD "D@123456" // Put your wifi password here
-#define TOKEN "BBFF-8ofHUIygUu9HwwzSZ6wrhNXEwTlgQy" // Put your Ubidots' TOKEN
-#define MQTT_CLIENT_NAME "9cdef787" // MQTT client Name, please enter your own 8-12 alphanumeric character ASCII string; 
+#define WIFISSID "XYZ" // Put your WifiSSID here
+#define PASSWORD "XYZ" // Put your wifi password here
+#define TOKEN "XYZ" // Put your Ubidots' TOKEN
+#define MQTT_CLIENT_NAME "XYZ" // MQTT client Name, please enter your own 8-12 alphanumeric character ASCII string; 
                                            //it should be a random and unique ascii string and different from all other devices
 
 /****************************************
