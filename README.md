@@ -27,7 +27,7 @@ Software Used:
 - [Ubidot](https://ubidots.com/)
 
 
-# Steps to send data to Ubidot using ESP-32 and SI7021-
+# Steps to send data to Ubidot using ESP-32 and SHT30-
 
 ## Connection of SHT30 with shield
 ![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/I2Cconnection%20SI021.JPG)
