@@ -41,7 +41,8 @@ Software Used:
 - Compile and upload the  [ESP32_SHT30.](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/ESP32_SHT30.ino) code.
 - To verify the connectivity of the device and the data sent, open the serial monitor.If no response is seen, try unplugging your ESP32 and then plugging it again. Make sure the baud rate of the Serial monitor is set to the same one specified in your code 115200.
 
-
+## Serial monitor output.
+![alt tag](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/Seriasht30%20output.JPG)
 
 ## Making the Ubidot work:
 - Create the account on [Ubidot](https://ubidots.com/).
@@ -53,6 +54,6 @@ Software Used:
 ![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/variable.JPG)
 
 # OUTPUT
-![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/tempoutput.JPG)
+![alt tag](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/SHT30%20out.JPG)
 
 
