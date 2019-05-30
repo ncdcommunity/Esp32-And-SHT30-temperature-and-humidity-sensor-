@@ -104,7 +104,7 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
 - Add a new device to your ubidot dashboard name esp32.
   
 ![alt tag](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/device234.JPG)
-                    Click on devices and select devices in ubidot.
+                    **Click on devices and select devices in ubidot.**
 
 ![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/Device.JPG)
 
