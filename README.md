@@ -26,6 +26,31 @@ Software Used:
 - Arduino IDE
 - [Ubidot](https://ubidots.com/)
 
+Library Used:
+- PubSubClient Library
+-Wire.h
+
+# Arduino Client for MQTT
+This library provides a client for doing simple publish/subscribe messaging with a server that supports MQTT
+
+For more information about MQTT, visit [mqtt.org](http://mqtt.org/).
+## Download
+The latest version of the library can be downloaded from [GitHub](https://github.com/knolleary/pubsubclient/releases/tag/v2.7)
+## Documentation
+The library comes with a number of example sketches. See File > Examples > PubSubClient within the Arduino application.
+Full [API Documentation](https://pubsubclient.knolleary.net/api.html).
+## Compatible Hardware
+The library uses the Arduino Ethernet Client api for interacting with the underlying network hardware. This means it Just Works with a growing number of boards and shields, including:
+
+- Arduino Ethernet
+- Arduino Ethernet Shield
+- Arduino YUN – use the included YunClient in place of EthernetClient, and be sure to do a Bridge.begin() first
+- Arduino WiFi Shield - if you want to send packets greater than 90 bytes with this shield, enable the [MQTT_MAX_TRANSFER_SIZE]  (https://pubsubclient.knolleary.net/api.html#configoptions) option in   PubSubClient.h.
+- Sparkfun WiFly Shield – when used with [this](https://github.com/dpslwk/WiFly) library
+- Intel Galileo/Edison
+- ESP8266
+- ESP32
+The library cannot currently be used with hardware based on the ENC28J60 chip – such as the Nanode or the Nuelectronics Ethernet Shield. For those, there is an alternative library available.
 
 # Steps to send data to Ubidot using ESP-32 and SHT30-
 
@@ -36,7 +61,7 @@ Software Used:
 ![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/Esp32%20Connection.png)
 
 ##  Uploading the code  to ESP32 using Arduino IDE:
-- Download and install the PubSubClient Library.
+- Download and install the C Library.
 - You must assign your unique Ubidots TOKEN, MQTTCLIENTNAME, SSID (WiFi Name) and Password of the available network.
 - Compile and upload the  [ESP32_SHT30.](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/ESP32_SHT30.ino) code.
 - To verify the connectivity of the device and the data sent, open the serial monitor.If no response is seen, try unplugging your ESP32 and then plugging it again. Make sure the baud rate of the Serial monitor is set to the same one specified in your code 115200.
