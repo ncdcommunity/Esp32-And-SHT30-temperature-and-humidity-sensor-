@@ -28,7 +28,7 @@ Software Used:
 
 Library Used:
 - PubSubClient Library
--Wire.h
+- Wire.h
 
 # Arduino Client for MQTT
 This library provides a client for doing simple publish/subscribe messaging with a server that supports MQTT
@@ -51,6 +51,35 @@ The library uses the Arduino Ethernet Client api for interacting with the underl
 - ESP8266
 - ESP32
 The library cannot currently be used with hardware based on the ENC28J60 chip – such as the Nanode or the Nuelectronics Ethernet Shield. For those, there is an alternative library available.
+
+# Wire Library
+  The Wire library allows you to communicate with I2C devices, often also called "2 wire" or "TWI" (Two Wire Interface),can download  from [Wire,h](https://github.com/PaulStoffregen/Wire)
+## Basic Usage
+- Wire.begin()
+  Begin using Wire in master mode, where you will initiate and control data transfers. This is the most common use when interfacing with   most I2C peripheral chips.
+
+- Wire.begin(address)
+  Begin using Wire in slave mode, where you will respond at "address" when other I2C masters chips initiate communication.
+  
+ ## Transmitting
+ - Wire.beginTransmission(address)
+   Start a new transmission to a device at "address". Master mode is used.
+
+- Wire.write(data)
+  Send data. In master mode, beginTransmission must be called first.
+
+- Wire.endTransmission()
+  In master mode, this ends the transmission and causes all buffered data to be sent.
+  
+## Receiving
+- Wire.requestFrom(address, count)
+  Read "count" bytes from a device at "address". Master mode is used.
+
+- Wire.available()
+  Retuns the number of bytes available by calling receive.
+
+- Wire.read()
+  Receive 1 byte.
 
 # Steps to send data to Ubidot using ESP-32 and SHT30-
 
