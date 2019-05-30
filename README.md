@@ -117,6 +117,8 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
          
 ![alt tag](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/Sensor233.JPG)
 
+             Now you are able to view the Temperature in degree celsius which viewed in serial monitor.
+
 # OUTPUT
 ![alt tag](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/SHT30%20out.JPG)
 
