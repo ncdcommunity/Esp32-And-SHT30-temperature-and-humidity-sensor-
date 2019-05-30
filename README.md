@@ -102,12 +102,14 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
 - Create the account on [Ubidot](https://ubidots.com/).
 - Go to my profile and note down the token key which is a unique key for every account and paste it to your ESP32 code before uploading.
 - Add a new device to your ubidot dashboard name esp32.
+  
 ![alt tag](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/device234.JPG)
 ![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/Device.JPG)
 
 - Inside device create new variable name sensor in which your temperature reading will be shown.
 ![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/variable.JPG)
-
+                 Click on devices and select devices in ubidot. 
+         
 ![alt tag](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/Sensor233.JPG)
 
 # OUTPUT
