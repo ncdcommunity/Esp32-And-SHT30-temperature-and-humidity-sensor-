@@ -117,7 +117,9 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
          
 ![alt tag](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/Sensor233.JPG)
 
-     Now you are able to view the Temperature in degree celsius which was previously viewed in serial monitor.
+     Now you are able to view the Temperature in degree celsius which was previously viewed in serial monitor.This
+     happened because the value of temperature we calculated in degree celsius  is passed as a string and store in
+     variable and publish to variable sensor inside  device esp32. 
 
 # OUTPUT
 - **Now as the temperature increases and decreases new data available inside the sensor variable.**
