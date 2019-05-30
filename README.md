@@ -90,7 +90,7 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
 ![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/Esp32%20Connection.png)
 
 ##  Uploading the code  to ESP32 using Arduino IDE:
-- Download and install the C Library.
+- Download and include the PubSubClient Library and Wire.h Library.
 - You must assign your unique Ubidots TOKEN, MQTTCLIENTNAME, SSID (WiFi Name) and Password of the available network.
 - Compile and upload the  [ESP32_SHT30.](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/ESP32_SHT30.ino) code.
 - To verify the connectivity of the device and the data sent, open the serial monitor.If no response is seen, try unplugging your ESP32 and then plugging it again. Make sure the baud rate of the Serial monitor is set to the same one specified in your code 115200.
