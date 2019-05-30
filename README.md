@@ -107,7 +107,8 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
 
 - Inside device create new variable name sensor in which your temperature reading will be shown.
 ![alt tag](https://github.com/mjScientech/ESP32-AND-SI7021/blob/master/variable.JPG)
-![alt tag](https://industrial.ubidots.com/app/devices/5cecfdfe1d84723f9f8275f9)
+
+![alt tag](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/Sensor233.JPG)
 
 # OUTPUT
 ![alt tag](https://github.com/mjScientech/Esp32-And-SHT30/blob/master/SHT30%20out.JPG)
